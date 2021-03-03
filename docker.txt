@@ -1,0 +1,1 @@
+docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_PASSWORD=secret -e MYSQL_DATABASE=mn-funding -p 3306:3306 -d mysql:8.0
